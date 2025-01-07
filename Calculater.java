@@ -35,6 +35,7 @@ public class Calculater {
         }
 
         num.close();
+        opr.close();
     }
 
 }

@@ -35,8 +35,10 @@ public class SortingAlgorithm {
                 arr[k++] = R[j++];
             }
         }
-        while (i < n1) arr[k++] = L[i++];
-        while (j < n2) arr[k++] = R[j++];
+        while (i < n1)
+            arr[k++] = L[i++];
+        while (j < n2)
+            arr[k++] = R[j++];
     }
 
     // Merge Sort (Recursive)
@@ -69,7 +71,7 @@ public class SortingAlgorithm {
                 stack[++top] = p - 1;
             }
 
-            if (p + 1 < high) {
+            if (p + 1 > high) {
                 stack[++top] = p + 1;
                 stack[++top] = high;
             }
@@ -175,7 +177,3 @@ public class SortingAlgorithm {
         }
     }
 }
-
-
-
-

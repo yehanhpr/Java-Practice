@@ -15,7 +15,7 @@ public class FindAvrge {
         for (int i = 0; i < number.length; i++) {
             System.out.println();
 
-            System.out.println(i + 1 + " row ");
+            System.out.println("\t" + i + 1 + " row ");
 
             for (int j = 0; j < number[i].length; j++) {
 
