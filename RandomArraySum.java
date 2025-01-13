@@ -6,6 +6,7 @@ public class RandomArraySum {
         Random rnd = new Random();
         int[] array = new int[10];
         int sum = 0;
+        float avj = 0;
 
         for (int i = 0; i < array.length; i++) {
             array[i] = rnd.nextInt(20000 - 500 + 1) + 500;
@@ -18,5 +19,9 @@ public class RandomArraySum {
         }
 
         System.out.println("sum of the all elements is: " + sum);
+
+        System.out.println("array.length = " + array.length);
+
+        System.out.println("Avarge is: " + sum / array.length);
     }
 }
