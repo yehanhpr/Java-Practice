@@ -12,6 +12,7 @@ public class MultyArrayWithMethod {
         for (int i = 0; i < x.length; i++) {
 
             System.out.println();
+
             System.out.println(i + 1 + " row ");
 
             for (int j = 0; j < x[i].length; j++) {

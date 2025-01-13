@@ -11,10 +11,10 @@ public class CreateArray {
         for (int i = 0; i < cars.length; i++) {
             System.out.println();
 
-            System.out.println("\t" + i);
+            System.out.println(i + 1);
 
             for (String p : cars) {
-                System.out.print(p + " ");
+                System.out.print(p + " \t");
 
             }
         }
