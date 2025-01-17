@@ -1,17 +1,9 @@
-public class Main {
-
-    public Main(int year, String name) {
-
-        String modelname = name;
-        int modelyear = year;
-
-        System.out.println("my car model is: " + modelname + " and its year is: " + year);
-
+class Example {
+    void display(Example obj) {
+        System.out.println("Method called with current object!");
     }
 
-    public static void main(String[] args) {
-
-        Main obj = new Main(1999, "Mustang");
-
+    void call() {
+        display(this); // Passes the current object
     }
 }
